@@ -14,7 +14,7 @@ const Dashboard = () => {
 
     const getUser = useCallback(async () => {
         try {
-            const response = await axios.get('http://localhost:8001/user', {
+            const response = await axios.get('http://localhost:8002/user', {
                 params: { userId }
             })
             setUser(response.data)
@@ -25,7 +25,7 @@ const Dashboard = () => {
 
     const getGenderedUsers = useCallback(async () => {
         try {
-            const response = await axios.get('http://localhost:8001/gendered-users', {
+            const response = await axios.get('http://localhost:8002/gendered-users', {
                 params: { gender: user?.gender_interest }
             })
             setGenderedUsers(response.data)
@@ -46,7 +46,7 @@ const Dashboard = () => {
 
     const updateMatches = async (matchedUserId) => {
         try {
-            await axios.put('http://localhost:8001/addmatch', {
+            await axios.put('http://localhost:8002/addmatch', {
                 userId,
                 matchedUserId
             })

@@ -11,7 +11,7 @@ const MatchesDisplay = ({ matches, setClickedUser }) => {
 
   const getMatches = useCallback(async () => {
     try {
-      const response = await axios.get("http://localhost:8001/users", {
+      const response = await axios.get("http://localhost:8002/users", {
         params: { userIds: JSON.stringify(matchedUserIds) },
       });
       setMatchedProfiles(response.data);

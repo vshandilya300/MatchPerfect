@@ -12,7 +12,7 @@ const App = () => {
     return (
         <BrowserRouter>
             <Routes>
-                <Route path="/" element={<Home/>}/>
+                <Route path="/MatchPerfect" element={<Home/>}/>
                 {authToken && <Route path="/dashboard" element={<Dashboard/>}/>}
                 {authToken && <Route path="/onboarding" element={<OnBoarding/>}/>}
 

@@ -9,9 +9,8 @@ const ChatHeader = ({ user }) => {
     const logout = () => {
         removeCookie('UserId', cookies.UserId)
         removeCookie('AuthToken', cookies.AuthToken)
-        navigate('/')
+        navigate('/MatchPerfect')
         window.location.reload()
-        
     }
 
     return (
