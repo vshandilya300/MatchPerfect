@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/MatchPerfect/static/css/main.ed6b7235.css",
+    "main.js": "/MatchPerfect/static/js/main.16e9a6be.js",
+    "static/media/webp": "/MatchPerfect/static/media/6e9794bcedeecf5a8f8f41338a2a7345.96aa43fdb96591e8652c.webp",
+    "static/media/color-logo-tinder.png": "/MatchPerfect/static/media/color-logo-tinder.e5ab4ca8a223b9cec959.png",
+    "static/media/tinder_logo_white.png": "/MatchPerfect/static/media/tinder_logo_white.2a7043195a41346a00a7.png",
+    "index.html": "/MatchPerfect/index.html",
+    "main.ed6b7235.css.map": "/MatchPerfect/static/css/main.ed6b7235.css.map",
+    "main.16e9a6be.js.map": "/MatchPerfect/static/js/main.16e9a6be.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ed6b7235.css",
+    "static/js/main.16e9a6be.js"
+  ]
+}
