@@ -52,7 +52,7 @@ app.post('/signup', async (req, res) => {
             expiresIn: '24h'
         });
 
-        res.status(201).json({ token, userId: generatedUserId });
+        res.status(200).json({ token, userId: generatedUserId });
 
     } catch (err) {
         console.log(err);
